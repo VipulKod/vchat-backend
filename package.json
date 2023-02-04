@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A chat app for people who loves to connect with strangers",
+  "main": "index.js",
+  "author": "Vipul Kodle",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validation": "^4.1.0",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19",
+    "validatorjs": "^3.22.1"
+  },
+  "scripts": {
+    "start": "nodemon index.js --ignore client"
+  }
+}
